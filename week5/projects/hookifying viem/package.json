@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.10",
+    "viem": "^2.39.3"
+  }
+}
