@@ -1,0 +1,13 @@
+
+[profile.ci.fuzz]
+runs = 10_000
+
+
+
+[rpc_endpoints]
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/yqObZbx40UOMZvAkeXAaB"
+# Alternative RPC endpoints for sepolia:
+# sepolia = "https://rpc.sepolia.org"
+
+[etherscan]
+sepolia = { key = "YOUR_ETHERSCAN_API_KEY" }
