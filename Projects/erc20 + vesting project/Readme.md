@@ -33,4 +33,4 @@ The test suite covers:
 Smart contracts and tests are complete.  
 Frontend integration is optional and can be added later.
 
-![It will look like this ](././/erc20%20%2B%20vesting%20project/vvb.jpeg)
+![ ](././/vvb.jpeg)
