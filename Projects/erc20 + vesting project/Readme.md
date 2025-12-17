@@ -35,3 +35,6 @@ Frontend integration is optional and can be added later.
 
 ![ ](././/vvbb.png)
 ![ ](././/vvb.jpeg)
+
+Note : Project focus in smart contract design , not frontend UX so frotend is 
+enough for basic interaction
