@@ -1,0 +1,82 @@
+Web3 Crowdfunding dApp
+
+A full-stack Web3 Crowdfunding application built with Solidity, Foundry, React, and wagmi v2, enabling transparent and trustless fundraising using smart contracts.
+
+ Live Demo
+
+Frontend: https://crowdfunding-pink-nine.vercel.app/
+
+Contract (Sepolia): 0x53da9C3444085D4b3c50Fc38A0a96Cf18413C2D5
+
+❓ Problem
+
+Traditional crowdfunding platforms are centralized and opaque. Users must trust platforms for fund handling, withdrawals, and refunds.
+
+✅ Solution
+
+This dApp removes intermediaries by:
+
+🔒 Locking funds in a smart contract
+
+👀 Making all contributions transparent on-chain
+
+💸 Allowing withdrawals only when conditions are met
+
+🔄 Enabling trustless refunds if goals fail
+
+🧩 Features
+
+Create and fund campaigns
+
+Condition-based withdrawals
+
+Trustless refunds
+
+Wallet integration using wagmi v2
+
+Smart contracts tested using Foundry
+
+🛠️ Tech Stack
+
+Solidity, Foundry (tests included)
+
+React + Vite
+
+wagmi v2, viem
+
+Vercel (deployment)
+
+📂 Structure
+Projects/
+ └─ crowdfunding project/
+    ├─ stake/      # Solidity contracts (Foundry)
+    └─ frontend/   # React + Vite frontend
+
+⚙️ Run Locally
+# Contracts
+cd "Projects/crowdfunding project/stake"
+forge test
+
+# Frontend
+cd "Projects/crowdfunding project/frontend"
+npm install
+npm run dev
+
+🎯 Key Learnings
+
+End-to-end dApp development
+
+Writing & testing Solidity contracts
+
+wagmi v2 wallet integration
+
+Clean Git practices
+
+Deploying nested projects on Vercel
+
+👤 Author
+
+Harsh Kumar Rai
+GitHub: https://github.com/harshkumarrai
+⭐ Star the repo if you find it useful!
+
