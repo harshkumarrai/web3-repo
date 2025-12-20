@@ -1,4 +1,4 @@
-Web3 Crowdfunding dApp
+#Web3 Crowdfunding dApp 
 
 A full-stack Web3 Crowdfunding application built with Solidity, Foundry, React, and wagmi v2, enabling transparent and trustless fundraising using smart contracts.
 
