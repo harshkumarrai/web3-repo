@@ -1,23 +1,33 @@
-# Crowdfunding dApp Improvements
+# Crowdfunding dApp - Add Campaign ID Query Features
 
+## Task Summary
+Add functionality for:
+1. Contributors to check which campaign IDs they funded
+2. Campaign organizers to get the IDs of campaigns they created
 
+## Implementation Plan
 
+### Phase 1: Smart Contract Updates
+- [ ] 1. Add tracking mappings for user campaign relationships
+- [ ] 2. Add function `getCampaignsByCreator(address _creator)` 
+- [ ] 3. Add function `getCampaignsByContributor(address _contributor)`
+- [ ] 4. Update `createCampaign` to track creator
+- [ ] 5. Update `contribute` to track contributor
+- [ ] 6. Update ABI in frontend
 
+### Phase 2: Frontend Components
+- [ ] 7. Create new component `MyCampaigns.jsx` for organizers
+- [ ] 8. Create new component `MyContributions.jsx` for contributors  
+- [ ] 9. Add both components to main App.jsx
+- [ ] 10. Add proper styling and loading states
 
+### Phase 3: Testing
+- [ ] 11. Test smart contract functions
+- [ ] 12. Test frontend components
+- [ ] 13. Verify all functionality works correctly
 
-
-## Progress Tracking
-- [x] 1. Add QueryClient configuration to main.jsx ✅
-- [x] 2. Update App.jsx to wrap with QueryClient (Already wrapped in main.jsx) ✅
-- [x] 3. Improve CreateCampaign.jsx with loading states & feedback ✅
-- [x] 4. Improve Contribute.jsx with loading states & feedback ✅
-- [x] 5. Improve Withdraw.jsx with loading states & feedback ✅
-- [x] 6. Improve Refund.jsx with loading states & feedback ✅
-- [x] 7. Test all functionality ✅
-
-## Improvements Being Implemented
-1. **QueryClient Setup**: Proper @tanstack/react-query configuration
-2. **Loading States**: Visual feedback during transactions
-3. **Transaction Feedback**: Success/error notifications
-4. **Form Validation**: Better UX with input validation
-5. **Transaction Confirmations**: Handle pending/failed states
+## Technical Details
+- **Display**: Just campaign IDs as requested
+- **Smart Contract**: Add user tracking mappings
+- **Frontend**: New React components with useReadContract hooks
+- **Styling**: Consistent with existing design

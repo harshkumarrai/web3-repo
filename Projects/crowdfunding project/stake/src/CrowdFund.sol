@@ -98,5 +98,3 @@ contract CrowdFund {
         emit Refunded(_id, msg.sender, amount);
     }
 }
-
- 
